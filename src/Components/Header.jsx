@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
-        <Navbar expand="lg" className="bg-primary fixed-top">
+        <Navbar expand="lg" className="bg-info fixed-top">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
