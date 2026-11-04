@@ -8,7 +8,7 @@ function Products() {
             {/*Duplicate accroding to product count */}
             <div className="col-3">
                 {/*Cards  */}
-             <Card style={{ width: '18rem' }}>
+             <Card className='shadow p-2'>
       <Card.Img style={{height:'250px'}} variant='top' src="https://cdn.pixabay.com/photo/2024/05/13/20/10/ai-generated-8759674_1280.jpg" />
       <Card.Body className='text-center'>
         <Card.Title>Perfume</Card.Title>
