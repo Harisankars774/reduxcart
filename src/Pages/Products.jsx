@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Products() {
   return (
     <div className='m-5'>
-        <div className='row'>
+        <div className='row pt-5'>
             {/*Duplicate accroding to product count */}
             <div className="col-3">
                 {/*Cards  */}
