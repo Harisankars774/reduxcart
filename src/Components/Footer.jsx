@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { FaArrowRight, FaFacebook, FaForward, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
+import { FaArrowRight,FaTruck, FaFacebook, FaForward, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { FaMessage,FaPhone } from 'react-icons/fa6'
 
 function Footer() {
@@ -8,7 +8,11 @@ function Footer() {
     <div className='bg-info p-4'>
       <div className="row mt-3">
         <div className='col-3'>
-               <h3>DailyCart</h3>
+              <div className='d-flex'>
+                <FaTruck className='fs-4 mx-2'/>
+                 <h3>DailyCart</h3>
+                  
+              </div>
                <p>Designed and built with all love in the world by Luminar Team with the help of our contributors</p>
                <p>Code licensed Luminar.docs CC By 3.0</p>
                <p>Currently v5.3.2</p>
