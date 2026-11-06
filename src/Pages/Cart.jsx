@@ -43,7 +43,7 @@ function Cart() {
           </table>
          <div className='float-end'>
           <button className='btn btn-danger'>EMPTY CART</button>
-          <Link to={'/products'} className='mx-2 btn btn-info'>SHOP MORE</Link>
+          <Link to={'/'} className='mx-2 btn btn-info'>SHOP MORE</Link>
          </div>
         </div>
         <div className="col-lg-4">
