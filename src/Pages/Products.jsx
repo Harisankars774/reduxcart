@@ -38,7 +38,7 @@ function Products() {
           {
             loading?
               <div className='text-center py-5 fw-bold'>
-                         Loading
+                         Loading   
                 </div>
             :
             <div className='row pt-5'>
