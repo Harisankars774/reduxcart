@@ -25,6 +25,7 @@ function Cart() {
                </thead>
                <tbody>
                 <tr>
+                  
                     <td>1</td>
                     <td>Eyeshadow</td>
                     <td><img src="https://img.magnific.com/premium-psd/png-photo-laptop-screen-electronics-computer_53876-653212.jpg?semt=ais_hybrid&w=740&q=80 " alt=" " width={'50px'} height={'50px'}/></td>
