@@ -52,7 +52,7 @@ function Wishlist() {
           </div>
         </Card.Body>
       </Card>
-              </div>
+              </div>  
                 )
                 )
               }

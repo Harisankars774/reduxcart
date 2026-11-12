@@ -14,7 +14,7 @@ function View() {
   console.log(id)
   const {allProducts}=useSelector(state=>state.productReducer)
   const[product,setProduct]=useState({})
-  console.log(product)
+
   const userWishList=useSelector(state=>state.WishlistReducer)
   const userCart  =useSelector(state=>state.cartReducer)
   useEffect(()=>{

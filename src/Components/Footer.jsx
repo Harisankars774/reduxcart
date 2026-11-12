@@ -2,6 +2,8 @@
 import React from 'react'
 import { FaArrowRight,FaTruck, FaFacebook, FaForward, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import { FaMessage,FaPhone } from 'react-icons/fa6'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTruckFast} from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
@@ -9,7 +11,7 @@ function Footer() {
       <div className="row mt-3">
         <div className='col-3'>
               <div className='d-flex'>
-                <FaTruck className='fs-4 mx-2'/>
+                <FontAwesomeIcon icon={faTruckFast} className='text-light fs-4 mx-2'/>
                  <h3>DailyCart</h3>
                   
               </div>
